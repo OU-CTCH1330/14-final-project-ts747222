@@ -20,7 +20,7 @@
 | 1. Your solution has **at least** 100 lines of code total  in `*.h` and `*.cpp` files | 2 points |
 | 2. Your solution runs at least in baseline scenario | 2 points |
 | 3. Instructor can not find a test scenario to bring your app to unhandled error/crash | 2 points || 3. You used structured code, with various tasks logically structured in properly names functions | 2 points |
-| 4. You used some standard library class or function, eg `std::string` | 2 points |
+| 4. You used some standard book class or function, eg `std::string` | 2 points |
 | 5. You used structured error handling and exceptions | 2 points |
 | 6. You designed and used a class | 2 points |
 | 7. You split class design in header and implementations files | 2 points |
@@ -47,8 +47,8 @@
 These tips are general, not specific to current assignment.
 
 - If something goes wrong, please reach out early on, <span style='color: #8ae234'>**DO NOT STRUGGLE**</span>. 
-- Use GitHub PR, BlackBoard Discussions, MS Teams, email, or any other means for reaching out for instructor's help. Also feel free to collaborate with fellow students, especially now that sprint project has fostered an excellent teamwork. 
-- Please remember, instructor can't see your code until sync'd with GitHub repo. Further, if you want to let fellow students examine your code your repo needs to be [made public](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility) (it's private at creation). Peer collaboration is highly encouraged, as long as it's genuine learning as opposed to mechanical copy/paste (see policies in the syllabus at BlackBoard > CTCH1330 > Docs).
+- Use GitHub PR, BlackBoard Discussions, MS Teams, email, or any other means for reaching out for instructor's help. Also feel free to collaborate with fellow books, especially now that sprint project has fostered an excellent teamwork. 
+- Please remember, instructor can't see your code until sync'd with GitHub repo. Further, if you want to let fellow books examine your code your repo needs to be [made public](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility#changing-a-repositorys-visibility) (it's private at creation). Peer collaboration is highly encouraged, as long as it's genuine learning as opposed to mechanical copy/paste (see policies in the syllabus at BlackBoard > CTCH1330 > Docs).
 - Syncing incremental progress milestones is recommended. Autograder doesn't care about repeated failures, only final success matters. 
 - GitHub PR is an excellent place for code-centric discussions. This is also a standard in industry.
 - Each assignment/repo expects a dedicated Codespace

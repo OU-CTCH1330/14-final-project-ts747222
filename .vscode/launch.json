@@ -18,11 +18,11 @@
     ], 
     "inputs": [
         {
-            "id": "testClass",
+            "id": "testBook",
             "description": "Traget class that test should run on",
             "type": "pickString",
             "default": "scratch",
-            "options": ["instructor", "student", "students", "roster", "data", "scratch"]
+            "options": ["instructor", "book", "books", "roster", "data", "scratch"]
 
         }
     ]

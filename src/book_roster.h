@@ -21,9 +21,12 @@ namespace ctch1330
 
 	extern vector<string> roster;
 	extern vector<string> menu_real;
+	extern vector<string> menu;
+
 	vector<string> GetMenuFromDatabase();
 
-		
+			#pragma endregion
+
 
 }
 

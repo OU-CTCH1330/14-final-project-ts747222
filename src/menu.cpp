@@ -1,19 +1,18 @@
 #include "book_roster.h"
-#include "constants.h"
 using namespace ctch1330;
     
  
 
 vector<string> ctch1330::roster = 
 { 
-    "book1.name", 
-    "Franco", 
-    "Umberto", 
-    "Nino", 
-    "Jean-Luc"	
+    "Harry potter", 
+    "How to sleep", 
+    "The chronicles of Narnia", 
+    "Jack and the bean stalk", 
+    "Why me???"	
 };
 
-vector<string> ctch1330::menu_real = 
+vector<string> ctch1330::menu = 
 {
     "1. Display avalible books",
     "2. Donate a book",
@@ -25,5 +24,5 @@ vector<string> ctch1330::menu_real =
 
 vector<string> ctch1330::GetMenuFromDatabase()
 {
-    menu_real;
+    menu;
 }

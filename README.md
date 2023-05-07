@@ -15,23 +15,23 @@
 - It's perfectly fine to reach out and ask questions (to peers or instructor), search online, use Google or StackOverflow sort of resources. However, please refrain from using "ready to serve" AI tools, like ChatGPT. I am happy to help if you get stuck.
 - Below is a rubric that will be used to evaluate your submission. Points available add to more than assignment's worth, thus one can get full credit with meeting just enough goals. Obviously I encourage you to meet them all, extra points will serve as bonus. 
 
-| Goal | Points |
-| -- | -- |
-| 1. Your solution has **at least** 100 lines of code total  in `*.h` and `*.cpp` files | 2 points |
-| 2. Your solution runs at least in baseline scenario | 2 points |
-| 3. Instructor can not find a test scenario to bring your app to unhandled error/crash | 2 points || 3. You used structured code, with various tasks logically structured in properly names functions | 2 points |
-| 4. You used some standard book class or function, eg `std::string` | 2 points |
-| 5. You used structured error handling and exceptions | 2 points |
-| 6. You designed and used a class | 2 points |
-| 7. You split class design in header and implementations files | 2 points |
-| 8. You use function overloading, for instance overloaded class constructor | 2 points |
-| 9. You use private and public class members, class is designed with encapsulation in mind | 2 points |
-| 10. You use class inheritance | 2 points |
-| 11. You use pointers and/or pass-by-reference | 2 points | 
-| 12. You provided app documentation in `Readme.md` file (doesn't need to be long, but please use markdown) | 2 points |
-| 13. You added class diagram to app documentation | 2 points | 
-| 14. You recorded a demo showcasing the UI and included (accessible) link in documentation | 2 points |
-| 15. Early bird: assignment is submitted by Thursday evening | 2 points |
+| Goal | Points | Did or not |
+| -- | -- | --|
+| 1. Your solution has **at least** 100 lines of code total  in `*.h` and `*.cpp` files | 2 points | yes|
+| 2. Your solution runs at least in baseline scenario | 2 points | yes|
+| 3. Instructor can not find a test scenario to bring your app to unhandled error/crash | 2 points |hopefully| 3. You used structured code, with various tasks logically structured in properly names functions | 2 points |
+| 4. You used some standard book class or function, eg `std::string` | 2 points | https://github.com/OU-CTCH1330/14-final-project-ts747222/blob/1a610da29acd87b8d474022e00cbe495ce05110d/src/main.cpp#L18|
+| 5. You used structured error handling and exceptions | 2 points | yes |
+| 6. You designed and used a class | 2 points | main.cpp line 56| yes|
+| 7. You split class design in header and implementations files | 2 points | yes|
+| 8. You use function overloading, for instance overloaded class constructor | 2 points | no|
+| 9. You use private and public class members, class is designed with encapsulation in mind | 2 points | yes line 27 but the class isn't in use due to bugs|
+| 10. You use class inheritance | 2 points | yes|
+| 11. You use pointers and/or pass-by-reference | 2 points | line 76|
+| 12. You provided app documentation in `Readme.md` file (doesn't need to be long, but please use markdown) | 2 points | yes |
+| 13. You added class diagram to app documentation | 2 points | no|
+| 14. You recorded a demo showcasing the UI and included (accessible) link in documentation | 2 points | no|
+| 15. Early bird: assignment is submitted by Thursday evening | 2 points | no|
 
 - If you record a demo, you can use [Panopto](https://www.panopto.com/) or [MS Streams](https://www.microsoft365.com) for screen capture. Using university email will help with these services, you'll have instant account with premium features. Another approach is to schedule a bogus Teams meeting (please invite me for access), start that meeting, share screen and turn screen recording on. You can use other service if you prefer. Don't forget to provide access to my user/email (or make recording public, at your discretion).
 - Don't worry too much about UI. You can add menu, user input and interactivity, however you don't have to. Just producing console output alone as a result of the app execution is perfectly fine.
@@ -58,3 +58,7 @@ These tips are general, not specific to current assignment.
 ## App spec
 
 If you decide to supply documentation, your markdown can go here. You can use a different `*.md` file if you like. 
+
+# Final Project Description
+
+#### Made the ability to check out books from a public library, also able to return books. Wish I could've added a useful class but there were too many errors so I left it as a comment in the main.cpp.

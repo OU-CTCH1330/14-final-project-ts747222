@@ -6,8 +6,11 @@ namespace ctch1330
 {
 	void RenderMainMenu(vector<string> menu) 
 	{	
-		
-		
+
+		if (menu.empty() )
+		{
+			throw runtime_error( "Database error, could not retrieve Menu functionality data" );
+		}
 		cout << endl << "Main menu:" << endl << endl;
 
 		for (string menu_item : menu)
@@ -52,7 +55,7 @@ namespace ctch1330
 		}
 		else
 		{
-			cout << endl << "Please enter book number" << endl;
+			cout << endl << "Please enter book title" << endl;
 
 			cin >> new_entry;
 			
@@ -69,7 +72,7 @@ namespace ctch1330
 			int index_of_book_selected_for_deletion = GetUserInputWithinIntegerRange(1, roster.size()+1);
 			
 			roster.erase( roster.begin() + index_of_book_selected_for_deletion - 1 );
-			cout << endl << "Book information deleted, please press any character to continue" << endl;	
+			cout << endl << "Book has been checked out, please press any character to continue" << endl;	
 			WaitForUser();
 			return roster;
 	}
